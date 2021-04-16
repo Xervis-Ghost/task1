@@ -1,7 +1,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 import scipy.optimize as fsolve
-
+##define your function as 2x^2+5
 def f(x):
     return x**3 + 1
 def bisection(a,b,tol):
